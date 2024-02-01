@@ -544,9 +544,134 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[38px\] {
+  height: 38px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-\[78px\] {
+  width: 78px;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
+}
+
+.w-2\/6 {
+  width: 33.333333%;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
+}
+
+.w-\[186px\] {
+  width: 186px;
+}
+
+.w-\[184px\] {
+  width: 184px;
+}
+
+.max-w-\[730px\] {
+  max-width: 730px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-slate-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 6 23 / var(--tw-border-opacity));
 }
 
 .bg-ghost-white {
@@ -554,9 +679,115 @@ video {
   background-color: rgb(246 248 255 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-crayola {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 121 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/assets\/icon-search\.svg\'\)\] {
+  background-image: url('../assets/icon-search.svg');
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-true-blue {
   --tw-text-opacity: 1;
   color: rgb(75 106 155 / var(--tw-text-opacity));
+}
+
+.text-gunmetal {
+  --tw-text-opacity: 1;
+  color: rgb(43 52 66 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:bg-oxford) {
